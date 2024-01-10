@@ -26,7 +26,7 @@
 
 ## Demo
 
-![Demo]([your_demo_gif_or_screenshot_url](https://github.com/xoventechdev/BookList/blob/master/screencapture-booklist.png))
+![Demo](https://github.com/xoventechdev/BookList/blob/master/screencapture-booklist.png)
 
 [Live Demo]([your_live_demo_url](https://xoventechdev.github.io/BookList/))
 
