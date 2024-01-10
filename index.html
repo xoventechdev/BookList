@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book List</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+
+    <div class="container mt-5">
+        <div class="row">
+            <h2 class="text-center">My <span class="text-primary">Book</span> List</h2>
+            <form id="book-info">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="bookname">Book Name</label>
+                            <input type="text" id="bookname" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="author">Book Author</label>
+                            <input type="text" id="author" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="publishdate">Book Publish Date</label>
+                            <input type="date" id="publishdate" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="type">Book Type</label>
+                            <select id="type" class="form-control">
+                                <option value="PDF">PDF</option>
+                                <option value="MP3">MP3</option>
+                                <option value="Hard Copy">Hard Copy</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="d-grid">
+                        <button id="add-book" class="btn btn-primary d-inline" type="button">Add Book</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+
+        <div class="row mt-10">
+            <h2 class="text-center mt-5 text-primary">Saved <span class="text-dark">Book</span> List</h2>
+            <div class="col-md-12">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Author</th>
+                            <th scope="col">Publish Date</th>
+                            <th scope="col">Type</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="book-list">
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
