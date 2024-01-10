@@ -28,7 +28,7 @@
 
 ![Demo](https://github.com/xoventechdev/BookList/blob/master/screencapture-booklist.png)
 
-[Live Demo]([your_live_demo_url](https://xoventechdev.github.io/BookList/))
+[Live Demo](https://xoventechdev.github.io/BookList)
 
 ## Getting Started
 
