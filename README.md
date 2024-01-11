@@ -26,9 +26,9 @@
 
 ## Demo
 
-![Demo](https://github.com/xoventechdev/BookList/blob/master/screencapture-booklist.png)
+![Demo]([https://github.com/xoventechdev/BookList/blob/master/screencapture-booklist.png](https://github.com/xoventechdev/BookList/blob/master/screencapture-booklist.png))
 
-[Live Demo](https://xoventechdev.github.io/BookList)
+[Live Demo]([https://xoventechdev.github.io/BookList](https://xoventechdev.github.io/Random-Quran-Verse/))
 
 ## Getting Started
 
